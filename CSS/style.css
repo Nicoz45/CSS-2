@@ -1,7 +1,24 @@
-section{
-    color: blueviolet;
+p, li{
+  background: black;
+  color: blueviolet;
 }
 
-p{
-    color: aquamarine;
+header p{
+    background: red;
+    color: black;
+}
+
+h1{
+  color: brown;
+  background: goldenrod;
+}
+
+section > p{
+  background: red;
+  color: black;
+}
+
+h2 ~ li{
+  background: blueviolet;
+  color: black;
 }
